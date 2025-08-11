@@ -1,40 +1,9 @@
-# Memberitahu pip untuk mencari paket torch di repositori khusus CPU
+# Memberi tahu pip untuk mencari paket torch di repositori khusus CPU
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Dependensi utama untuk Flask (web server)
+# Dependensi utama yang diimpor langsung di App.py
 Flask
 flask-cors
-itsdangerous
-Jinja2
-MarkupSafe
-Werkzeug
-
-# Dependensi utama untuk model AI (Hugging Face)
-huggingface-hub
-numpy
-packaging
-PyYAML
-regex
-requests
-safetensors
-tokenizers
-tqdm
 transformers
-# torch diinstal dari index URL di atas, ukurannya jauh lebih kecil
 torch
-torchvision
-
-# Dependensi untuk deteksi bahasa
 langdetect
-
-# Dependensi pendukung lainnya
-blinker
-certifi
-charset-normalizer
-click
-filelock
-fsspec
-idna
-six
-typing_extensions
-urllib3
